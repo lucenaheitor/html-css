@@ -1,0 +1,91 @@
+@charset "UTF8";
+
+
+
+body{
+    background-image: linear-gradient(to bottom, #4466C8, #AE37AB,
+    #F64C57, #FF8147, #FBCA54 );
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    height: 930px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #4466C8, #AE37AB,
+    #F64C57, #FF8147, #FBCA54 );
+     background-attachment: fixed;
+    /*background-color: rgb(68, 64, 64);*/
+    margin: 5px;
+    padding: 2px;
+}
+ul{
+    
+    list-style: none;
+    text-align: left;
+    
+}
+li{
+   
+   padding:  10 px;
+    display: inline;
+    
+    
+}
+ nav a{
+    color: white;
+    padding:  16px;
+    text-decoration: none;
+}
+nav a:hover{
+    transition: 0.5;
+    background-color: #a39c9c;
+    color: #fff;
+    
+}
+ img{
+height: 85z\0px;
+width: 100%; 
+margin: auto;
+padding: 0px;
+}
+h2{
+    text-align: center;
+    float: bottom;
+}
+p{
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    top: 300px;
+    width: 1900px;
+    line-height: 30px;
+    height: 30px;
+    font-size: 22px;
+    margin: auto;
+}
+footer{
+    background-image: linear-gradient(to bottom, #4466C8, #AE37AB,
+    #F64C57, #FF8147, #FBCA54 );
+     background-attachment: fixed;
+    /*background-color: rgb(68, 64, 64);*/
+    padding: 10px;
+    margin: 0px;
+}
+.contato h2{
+color: white;
+
+}
+.listas ul{
+    color: white;
+    text-align: center;
+}
+.listas li{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+   
+}
+.listas a{
+    color: white;
+    text-decoration: none;
+}

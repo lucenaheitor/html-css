@@ -1,0 +1,30 @@
+@charset "UITF-8";
+
+/*tudo que  for id em HTML vira hashtag(#) em CSS
+tudo q é class vira  ponto  (.) em CSS*/
+
+body{
+    background-color: rgb( 205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{
+    color: rgb( 4, 109, 0);
+    text-align: center;
+    color:  white;
+    background-color: yellowgreen;
+}
+h1{
+    color: rgb(35, 87, 33);
+}
+h2{
+    color: rgb( 51, 77, 49);
+}
+.basico{
+    color: rgb(235, 235, 62);
+}
+.intermediario{
+    color:  rgb(224, 69, 69);
+}
+.avancado{
+    color: rgb(243, 65, 190);
+}

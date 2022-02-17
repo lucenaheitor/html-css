@@ -1,0 +1,101 @@
+body{
+    background-image: url(imagem/evining.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/*=====CABEÇALHO====*/
+#cabecalho{
+    background: rgb(13, 13, 46);
+    height: 50px;
+}
+.menu{
+    padding: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+#cabecalho ul{
+    padding-left: 30px;
+}
+li{
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding:  10px;   
+}
+#cabecalho a:hover{
+    transition: 0.5;
+    background: rgb(61, 225, 247);
+}
+.logo{
+    text-align: left;
+    float: left;
+    padding-right: 0px;
+    
+}
+
+/*=====Main====*/
+
+#conteudo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.parag{
+    padding: 0px;
+    
+}
+.ver{
+    border: 2px solid white;
+    padding: 10px;
+}
+.int{
+    color: aqua;
+    border: 2px solid aqua;
+    padding: 10px;
+}
+.int a{
+    color: aqua;
+}
+h1{
+    padding: 0px;
+}
+
+
+
+
+/*=====FOOTER====*/
+#footer{
+   position: absolute;
+    bottom: 0px;
+    width: 100%;   
+}
+.rodape{
+    background:  rgb(13, 13, 46);
+     height: 60px;
+     text-align: center;
+     padding-top: 20px;
+}
+.branco{
+    color: white;
+    padding: 10px;
+    
+}
+.cinza{
+    color: gray;
+    padding: 10px;
+}
+.azul > a{
+    color: aqua;
+    padding: 10px;
+    border: 2px solid;
+}

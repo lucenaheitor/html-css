@@ -9,16 +9,23 @@ body{
 #cabecalho{
     background: rgb(13, 13, 46);
     height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
 }
 .menu{
     padding: 10px;
     padding-top: 5px;
     text-align: center;
 }
-
-
-#cabecalho ul{
-    padding-left: 30px;
+#botao{
+    color: aqua;
+    border:  2px solid aqua;
+}
+#botao:hover{
+    color:  white;
 }
 li{
     color: white;

@@ -44,9 +44,10 @@ a{
 .logo{
     text-align: left;
     float: left;
-    padding-right: 0px;
+    padding-right: 0px;  
     
 }
+
 
 /*=====Main====*/
 
@@ -66,12 +67,14 @@ a{
     padding: 10px;
 }
 .int{
-    color: aqua;
-    border: 2px solid aqua;
+    background: aqua;
+    color: white;
+    border: 2px solid rgb(12, 231, 231);
     padding: 10px;
 }
+
 .int a{
-    color: aqua;
+    color: white;
 }
 h1{
     padding: 0px;

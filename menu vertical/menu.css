@@ -1,0 +1,13 @@
+#menu{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+a{
+    color: rgb(9, 77, 223);
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    background: aqua;
+}
